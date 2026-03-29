@@ -64,8 +64,8 @@ Implement a simple rule-based system:
 
 Examples:
 
-chest pain → cardiology (high urgency)
-headache → neurology
+chest pain → cardiology (high urgency),
+headache → neurology,
 stomach pain → gastroenterology
 
 You do NOT need real medical accuracy — we are evaluating structure and logic.
