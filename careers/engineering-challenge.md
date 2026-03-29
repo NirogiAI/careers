@@ -1,39 +1,29 @@
-# Engineering Challenge
+# Healthcare Backend Engineering Challenge
 
 ## Overview
-- This document outlines the engineering challenge for the NirogiAI careers page.
+As a backend engineer at Nirogi AI, you will be tasked with developing scalable and maintainable backend services for healthcare applications. This challenge will help us evaluate your coding and problem-solving skills.
 
 ## Requirements
-- Candidates must:
-  - Have a strong understanding of software engineering principles.
-  - Be proficient in one or more programming languages.
-  - Exhibit problem-solving skills and creativity.
+1. **API Development**: Design and implement a RESTful API to manage patient data.
+2. **Data Storage**: Use a relational database to store patient information and implement migrations.
+3. **Authentication**: Implement user authentication using JWT (JSON Web Tokens).
+4. **Testing**: Write unit and integration tests for your code.
 
-## Submission Instructions
-- Please submit the following:
-  - A solution to the challenge presented below.
-  - A brief introduction about yourself, including your interests in technology.
+## Deliverables
+- A GitHub repository with your code, including:
+  - A README file with setup instructions
+  - The implementation of the API
+  - A Postman collection for testing the API
+- Documentation covering important design decisions.
 
-## Challenge
-- Develop a feature that reads and presents the data from a JSON file. 
-- The JSON file format should look like this:
+## Optional Challenges
+- Implement rate limiting on the API.
+- Add caching to improve performance.
+- Create a UI to interact with the API using a frontend technology of your choice.
 
-    ```json
-    {
-      "name": "John Doe",
-      "age": 30,
-      "skills": [
-        "JavaScript",
-        "Python",
-        "Go"
-      ]
-    }
-    ```
-
-### Evaluation Criteria
-- Code Quality
-- Efficiency of the Solution
-- Clarity of Explanation
-
-## Conclusion
-We look forward to your solutions! Good luck!
+## Evaluation Criteria
+- Code quality and organization
+- Clarity of API design
+- Proper use of database design principles
+- Quality of tests
+- Documentation
