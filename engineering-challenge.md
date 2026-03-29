@@ -1,37 +1,40 @@
-# Engineering Challenge
+# Healthcare Workflow System Challenge
 
 ## Overview
-
-In this challenge, you will demonstrate your skills in software engineering through the completion of a series of tasks. This document outlines the requirements and expectations for the challenge.
+In this challenge, you will design and implement a workflow system specifically tailored for healthcare applications. The system must manage various workflows efficiently while ensuring compliance with healthcare regulations.
 
 ## Requirements
+1. **User Authentication**: Implement a secure user authentication mechanism.
+2. **Workflow Management**: Provide a way to create, update, and delete workflows.
+3. **Task Assignment**: Allow the assignment of tasks to specific users within a workflow.
+4. **Status Tracking**: Enable tracking of the status of each task within a workflow.
 
-- **Programming Language:** Choose a language with which you are comfortable (JavaScript, Python, Ruby, etc.).
+## Technical Specifications
+### Technologies
+- **Backend**: Use your choice of technology (Node.js, Python, etc.).
+- **Database**: Implement a relational database to store workflows and tasks information.
 
-- **Frameworks:** You may use any frameworks that are suitable for your project. Be sure to mention them in your submission.
-
-- **Documentation:** Your code should be well-documented. Include details on how to run your project and any dependencies needed.
-
-## Tasks
-
-1. **Task 1: Set Up a Repository**  
-   Create a new repository on GitHub for your project.
-
-2. **Task 2: Implement Features**  
-   Implement the following features:  
-   - Feature A
-   - Feature B
-   - Feature C
-
-3. **Task 3: Write Tests**  
-   Include tests for your code. Ensure you cover the major functionalities.
-
-## Submission
-
-Please submit your repository link along with a description of the approach you took to solve the challenge.
+### Code Structure
+```bash
+project/
+│
+├── src/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── app.js
+│
+├── tests/
+│   └── workflow.test.js
+│
+└── package.json
+```
 
 ## Evaluation Criteria
+- **Code Quality**: Writing clean, maintainable, and efficient code.
+- **Functionality**: Meeting all functionalities as described above.
+- **Documentation**: Providing clear documentation on how to set up and use the system.
 
-- **Code Quality:** Is the code clean and maintainable? 
-- **Functionality:** Does the project meet the specified requirements? 
-- **Documentation:** Is the project well-documented?
+## Submission
+Please submit your project as a GitHub repository link. Ensure that your repository is public or provide access to assess your implementation.
