@@ -1,5 +1,5 @@
-Engineering Challenge — Founding Software Engineer
-Overview
+# Engineering Challenge — Founding Software Engineer
+## Overview
 
 This challenge is designed to evaluate your ability to build a real backend system using Python, Linux, and cloud-oriented practices.
 
@@ -20,8 +20,10 @@ The service should:
 Accept a patient record
 Process the record
 Return a structured recommendation
+
 Requirements
-1. API Service
+
+## 1. API Service
 
 Build a REST API using Python (FastAPI preferred).
 
@@ -55,7 +57,8 @@ Return:
   "urgency": "high",
   "notes": "Possible cardiovascular issue based on symptoms"
 }
-2. Processing Logic
+
+## 2. Processing Logic
 
 Implement a simple rule-based system:
 
@@ -67,7 +70,7 @@ stomach pain → gastroenterology
 
 You do NOT need real medical accuracy — we are evaluating structure and logic.
 
-3. Asynchronous Processing (Important)
+## 3. Asynchronous Processing (Important)
 
 Simulate a background processing system:
 
@@ -77,7 +80,8 @@ background tasks
 Celery
 queue system
 async workers
-4. Data Storage
+
+## 4. Data Storage
 
 Use one of:
 
@@ -87,13 +91,14 @@ in-memory (acceptable for MVP)
 
 Structure matters more than scale.
 
-5. Logging and Error Handling
+## 5. Logging and Error Handling
 
 Include:
 
 structured logging
 clear error responses
 basic validation
-6. Containerization
+
+## 6. Containerization
 
 Provide a Dockerfile that can run the service.
