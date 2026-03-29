@@ -85,7 +85,7 @@ You will design and build core components of the platform, including:
 
 ## How to Apply
 
-Send the following to **[careers@nirogiai.com](mailto:careers@nirogiai.com)**:
+Send the following to **[founders@nirogiai.com](mailto:founders@nirogiai.com)**:
 
 1. **GitHub profile**
 2. **Resume**
