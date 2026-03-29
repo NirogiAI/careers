@@ -1,0 +1,115 @@
+# Founding Software Engineer — AI Healthcare Platform
+
+**Company:** NirogiAI (Private) Ltd  
+**Location:** Colombo, Sri Lanka — Hybrid preferred; Remote within Sri Lanka considered  
+**Type:** Full-time · Founding Role · Equity-bearing
+
+---
+
+> *"You will own systems, make architectural decisions, and ship real infrastructure."*
+
+---
+
+## About NirogiAI
+
+NirogiAI is building a cloud-native, AI-enabled healthcare platform that connects patients, diagnostic providers, and specialist physicians through intelligent workflows and secure medical data systems.
+
+This is a **founding engineering role**. You will work directly with the founders to build a production-grade system from the ground up. This is not a maintenance role and not a narrow feature role.
+
+We are not looking for generalists with shallow exposure. We are looking for engineers with strong fundamentals and real system-building experience.
+
+---
+
+## What You'll Work On
+
+You will design and build core components of the platform, including:
+
+- **Backend services** using Python (FastAPI)
+- **Linux-based** system deployment and debugging
+- **Cloud infrastructure** and service deployment (GCP / AWS / Azure)
+- **AI/LLM pipelines** including Retrieval-Augmented Generation (RAG)
+- **Secure ingestion and processing** of medical data (documents, imaging, structured data)
+- **Event-driven systems** and asynchronous processing pipelines
+- **Production monitoring**, logging, and system reliability
+
+---
+
+## Requirements
+
+### ✅ Core (Non-Negotiable)
+
+| Area | What We Expect |
+|---|---|
+| **Linux** | Strong working knowledge; comfortable debugging processes, networking, and performance; production system experience |
+| **Python** | Production-grade code; APIs and backend services (FastAPI, Flask, or similar); concurrency, async, and system performance |
+| **Cloud** | Hands-on deployment on GCP, AWS, or Azure; networking, IAM, storage, compute; CI/CD pipelines |
+
+### ⭐ Strongly Preferred
+
+- Kubernetes and containerised systems
+- Infrastructure-as-code (Terraform or similar)
+- Event-driven systems (Kafka, queues, async processing)
+- Databases (PostgreSQL, Redis)
+- Machine learning systems or data pipelines
+- LLMs, RAG pipelines, embeddings, or inference systems
+- Healthcare data formats (FHIR, DICOM) — a plus, not required
+
+---
+
+## What We Value
+
+- Ability to **build and ship** real systems
+- Clear thinking and strong problem-solving
+- Ownership and accountability
+- Ability to work without constant supervision
+- **Practical engineering judgment** over theoretical knowledge
+
+---
+
+## What This Role Is Not
+
+- ❌ Not a junior or entry-level role
+- ❌ Not a "learn on the job from scratch" role
+- ❌ Not limited to writing small features or tickets
+
+---
+
+## Compensation
+
+- 💰 Competitive salary for high-end Sri Lanka engineering talent
+- 📈 Meaningful startup equity
+- 🚀 Opportunity to grow into a long-term leadership role
+
+---
+
+## How to Apply
+
+Send the following to **[careers@nirogiai.com](mailto:careers@nirogiai.com)**:
+
+1. **GitHub profile**
+2. **Resume**
+3. **Links to 1–3 systems or projects** you have built
+4. **A short write-up** answering:
+   - What is the most complex system you have built?
+   - What part of it did you personally own?
+   - What challenges did you face and how did you solve them?
+
+---
+
+## Evaluation Process
+
+Shortlisted candidates will go through:
+
+1. Initial technical discussion
+2. Practical system-building task *(real-world, not algorithm puzzles)*
+3. Deep technical interview
+
+---
+
+## A Note on Fit
+
+We are building a serious system involving healthcare data, AI, and cloud infrastructure.
+
+This role is best suited for engineers who want to **build systems from scratch**, work on meaningful technical problems, and take ownership of core platform components.
+
+If you are looking for a structured, low-risk, narrowly defined role, this is not the right fit.
