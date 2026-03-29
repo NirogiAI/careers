@@ -1,40 +1,56 @@
-# Healthcare Workflow System Challenge
+# Healthcare Workflow Backend Challenge
 
 ## Overview
-In this challenge, you will design and implement a workflow system specifically tailored for healthcare applications. The system must manage various workflows efficiently while ensuring compliance with healthcare regulations.
+This engineering challenge is designed to evaluate your backend development skills and your understanding of healthcare workflows. You will be creating an API service to manage healthcare data, ensuring accuracy and efficiency.
+
+## Objective
+The goal is to build a robust and scalable backend system that can handle various healthcare data operations.
 
 ## Requirements
-1. **User Authentication**: Implement a secure user authentication mechanism.
-2. **Workflow Management**: Provide a way to create, update, and delete workflows.
-3. **Task Assignment**: Allow the assignment of tasks to specific users within a workflow.
-4. **Status Tracking**: Enable tracking of the status of each task within a workflow.
+### API Service
+Your API service must have the following two endpoints:
+1. **GET /healthcare-data**: Retrieve healthcare data.
+2. **POST /healthcare-data**: Submit healthcare data for processing.
 
-## Technical Specifications
-### Technologies
-- **Backend**: Use your choice of technology (Node.js, Python, etc.).
-- **Database**: Implement a relational database to store workflows and tasks information.
+### Processing Logic
+Implement logic to validate and process incoming data before storing it in the database.
 
-### Code Structure
-```bash
-project/
-│
-├── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── app.js
-│
-├── tests/
-│   └── workflow.test.js
-│
-└── package.json
-```
+### Asynchronous Processing
+Utilize asynchronous processing for tasks that require time-consuming operations, such as data validation and storage.
 
-## Evaluation Criteria
-- **Code Quality**: Writing clean, maintainable, and efficient code.
-- **Functionality**: Meeting all functionalities as described above.
-- **Documentation**: Providing clear documentation on how to set up and use the system.
+### Data Storage
+Choose an appropriate data storage solution (SQL or NoSQL) and provide a schema to store healthcare data securely.
 
-## Submission
-Please submit your project as a GitHub repository link. Ensure that your repository is public or provide access to assess your implementation.
+### Logging and Error Handling
+Implement logging for all API requests and responses, and detailed error handling that provides meaningful error messages to the API consumers.
+
+### Containerization
+Containerize your application using Docker to ensure consistent development and production environments.
+
+## Optional Features
+- Implement user authentication and authorization.
+- Integrate a third-party API for additional functionality.
+- Provide a front-end interface for users to interact with your API.
+
+## What We Are Evaluating
+- Code organization and architecture
+- Adherence to API design principles
+- Quality of the documentation
+- Testing strategies employed
+
+## Time Expectation
+We expect you to spend no more than 4-6 hours on this challenge.
+
+## Submission Instructions
+1. Please submit your code in a public GitHub repository.
+2. Include a README.md file that explains how to set up and run your application.
+
+## Notes
+- You may use any programming language or framework of your choice.
+- Make sure to include comments in your code for clarity.
+
+## Evaluation Process
+Your submission will be reviewed based on functionality, coding standards, and completeness of your documentation.
+
+## Final Note
+We understand that this is a tight timeframe, and we appreciate the effort you put into this challenge. Good luck!
