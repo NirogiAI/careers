@@ -4,7 +4,7 @@
 
 ## The work
 
-Our platform is already in production: patients in English, Sinhala and Tamil, doctors triaging and consulting by video, lab orders and prescriptions flowing to diagnostic partners.
+Our platform is built and in pilot, with the first employer rollouts from December 2026: patient apps in English, Sinhala and Tamil, doctors triaging and consulting by video, lab orders and prescriptions reaching diagnostic partners.
 
 The next phase adds a set of **Python services** for our AI work, which have to fit alongside what already runs, not replace it. You would own them: the APIs they expose, the data they hold, how they are deployed, and how we know they are healthy at three in the morning.
 
@@ -14,7 +14,7 @@ You will work directly with the founders and with the doctors who use the system
 
 - Design and build Python services with clear APIs, sensible failure behaviour and useful logs
 - Build the data pipelines that feed them: ingestion, transformation, validation, and the dull-but-vital job of keeping them correct
-- Integrate those services with a production platform that is already carrying patients, without disturbing it
+- Integrate those services with a platform that is already running and about to carry patients, without disturbing it
 - Write the tests, the runbooks and the alerts that let a small team sleep
 - Work with our clinical governance so that what you build can be audited and explained
 
@@ -30,7 +30,7 @@ Useful, not required: healthcare data standards, message queues and event-driven
 
 ## What we offer
 
-- A system in real use, with real consequences, and the room to shape its next phase
+- A system about to carry real patients, with real consequences, and the room to shape its next phase
 - Direct access to the founders and to the clinicians who depend on your work
 - Compensation discussed openly at the first interview
 
