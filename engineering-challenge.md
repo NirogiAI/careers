@@ -1,104 +1,31 @@
-# Engineering Challenge — Founding Software Engineer
-## Overview
+# Engineering challenge
 
-This challenge is designed to evaluate your ability to build a real backend system using Python, Linux, and cloud-oriented practices.
+A short take-home exercise for the [Python Engineer](python-engineer.md) and [Applied AI Engineer](applied-ai-engineer-retrieval.md) roles. It is not an algorithm puzzle. We want to see how you structure a system, how you handle the dull realities, and how you explain your choices.
 
-This is not an algorithm or puzzle-based test.
+**Time:** please spend no more than four hours. An unfinished but well-reasoned submission beats a rushed complete one.
 
-We are interested in how you:
+## The task
 
-structure a system
-write production-quality code
-handle real-world concerns (errors, logging, performance)
-think about deployment and scalability
-Objective
+Build a small Python service that helps a doctor prepare for a consultation.
 
-Build a small backend service that simulates part of a healthcare workflow system.
+**1. Accept a case.** `POST /cases` takes a patient's age, their reported symptoms and any known conditions, and returns an identifier.
 
-The service should:
+**2. Prepare it.** For each case, assemble a short briefing for the doctor from a small set of reference notes that you supply with the project (a handful of markdown files is plenty). Every statement in the briefing must name the note it came from.
 
-Accept a patient record
-Process the record
-Return a structured recommendation
+**3. Return it.** `GET /cases/{id}` returns the briefing, its sources, and how long the preparation took.
 
-Requirements
+You may use any model API, or none: a stub that returns a fixed answer is acceptable if the pipeline around it is real. Tell us which you chose and why.
 
-## 1. API Service
+## What we care about
 
-Build a REST API using Python (FastAPI preferred).
+- **Structure.** Clear boundaries, readable code, sensible naming.
+- **Reality.** Validation, error handling, logging, and behaviour when a dependency is slow or absent.
+- **Evidence.** Tests that show the important parts work. Say what you did not test and why.
+- **Honesty about limits.** A short note on what would break first at a hundred times the volume, and what you would fix before letting a doctor rely on it.
+- **Safety.** This is clinical information. Tell us what you would refuse to let the system say on its own.
 
-Endpoint 1 — Submit Patient Data
+## What to send
 
-POST /patients
+A repository or an archive containing the code, a README with setup instructions of no more than ten lines, and a short design note: your choices, your trade-offs, and what you would do next with another week.
 
-Input (JSON):
-
-{
-  "name": "John Doe",
-  "age": 45,
-  "symptoms": ["chest pain", "fatigue"],
-  "history": ["hypertension"]
-}
-
-Behavior:
-
-Validate input
-Store the record (in-memory or database)
-Trigger processing (sync or async)
-Endpoint 2 — Get Recommendation
-
-GET /patients/{id}/recommendation
-
-Return:
-
-{
-  "patient_id": "123",
-  "recommended_specialist": "cardiology",
-  "urgency": "high",
-  "notes": "Possible cardiovascular issue based on symptoms"
-}
-
-## 2. Processing Logic
-
-Implement a simple rule-based system:
-
-Examples:
-
-chest pain → cardiology (high urgency),
-headache → neurology,
-stomach pain → gastroenterology
-
-You do NOT need real medical accuracy — we are evaluating structure and logic.
-
-## 3. Asynchronous Processing (Important)
-
-Simulate a background processing system:
-
-When patient data is submitted, processing should not block the request
-Use one of:
-background tasks
-Celery
-queue system
-async workers
-
-## 4. Data Storage
-
-Use one of:
-
-PostgreSQL
-SQLite
-in-memory (acceptable for MVP)
-
-Structure matters more than scale.
-
-## 5. Logging and Error Handling
-
-Include:
-
-structured logging
-clear error responses
-basic validation
-
-## 6. Containerization
-
-Provide a Dockerfile that can run the service.
+Send it to **founders@nirogiai.com**. We read every submission and reply either way, and if we take it further we will talk through your solution rather than quiz you on trivia.
