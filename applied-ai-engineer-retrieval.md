@@ -31,8 +31,8 @@ Useful, not required: healthcare data standards, information retrieval beyond em
 
 ## What we offer
 
-- A clear problem with a measurable answer, in a system that is already carrying patients
-- Direct access to the founders and to the doctors who use your work every day
+- A clear problem with a measurable answer, in a system that is about to carry patients
+- Direct access to the founders and to the doctors who will use your work every day
 - Compensation discussed openly at the first interview
 
 ## To apply
