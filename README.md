@@ -1,104 +1,33 @@
-# NirogiAI
+# Careers at NirogiAI
 
-NirogiAI is building AI-enabled healthcare infrastructure for Sri Lanka.
+**NirogiAI (Private) Limited** builds employer-paid primary care for Sri Lanka.
 
-We are developing a cloud-native platform that connects patients, diagnostic providers, and specialist physicians through secure medical data workflows, intelligent routing, and LLM-driven clinical reasoning.
+An employee describes their symptoms in our app, our AI prepares the case, and an SLMC-registered medical officer reviews it, consults by video where needed, orders tests and prescribes. AI assists, doctors decide.
 
-This is a systems-focused company. We are building production-grade infrastructure — not prototypes.
+The platform is live and in pilot use: patient apps in English, Sinhala and Tamil, portals for our medical officers, specialists, diagnostic partners and staff, and a workforce portal for the doctors who work sessions with us.
 
----
+## Open roles
 
-## What We Are Building
+| Role | What it is |
+|---|---|
+| [Python Engineer — AI services](python-engineer.md) | Build the Python services for our next phase and connect them to the platform we already run |
+| [Applied AI Engineer — retrieval](applied-ai-engineer-retrieval.md) | Build retrieval-augmented systems that give our doctors the right context at the right moment |
 
-We are developing a full-stack healthcare platform that includes:
+Both roles are full-time, based in Colombo or remote within Sri Lanka.
 
-- Python-based backend microservices (FastAPI)
-- AI/LLM orchestration with Retrieval-Augmented Generation (RAG)
-- Secure ingestion of medical data (FHIR, imaging, reports)
-- Event-driven workflows and asynchronous processing
-- Cloud-native deployment and infrastructure automation
+## How we work
 
-The system is designed to support:
-- Diagnostic recommendation workflows
-- Specialist routing and scheduling
-- Clinical report generation
-- Longitudinal patient monitoring
+- Every clinical decision is made by a registered doctor, never by a model. Our job is to give that doctor better information, faster.
+- We work in a regulated field. Patient data is handled under written retention, access and audit rules, and new uses of data are agreed before they are built.
+- We ship to real patients, so we value tested, observable, boring-in-the-right-places engineering over demos.
+- Small team, direct access to the founders and to the doctors who use what you build.
 
----
+## How to apply
 
-## Engineering Focus
+Write to **founders@nirogiai.com** with:
 
-We care about:
+- a short note on what you have built and what you want to work on
+- your CV or LinkedIn
+- links to code you are willing to show, if you have any
 
-- Building reliable systems, not demos  
-- Clean backend architecture and API design  
-- Real-world cloud infrastructure (not theoretical knowledge)  
-- Handling sensitive healthcare data securely  
-- Observability, performance, and system behavior under load  
-
-We use practical tools and choose simplicity over unnecessary complexity.
-
----
-
-## Technology Stack
-
-- **Backend:** Python (FastAPI)
-- **Cloud:** GCP / AWS / Azure
-- **Infrastructure:** Docker, Kubernetes, Terraform
-- **Data:** PostgreSQL, Redis
-- **Async / Events:** Kafka, Celery
-- **AI:** LLM APIs, RAG pipelines, embeddings
-
----
-
-## Hiring
-
-We are building a founding engineering team in Sri Lanka.
-
-We are looking for engineers who:
-- Have built and deployed real systems
-- Are strong in Python and Linux
-- Understand cloud infrastructure beyond tutorials
-- Can work independently and take ownership
-
-This is not a role for beginners or purely academic experience.
-
-### Open Role
-- Founding Software Engineer — AI Healthcare Platform
-
-### To Apply
-Send:
-- GitHub profile
-- Resume
-- Links to systems you have built
-- Short description of your most complex project
-
-Contact: **founders@nirogiai.com**
-
----
-
-## Principles
-
-- Build things that work in the real world  
-- Keep systems simple and understandable  
-- Prioritize correctness over speed when dealing with healthcare data  
-- Avoid hype — focus on execution  
-
----
-
-## Contact
-
-- Email: founders@nirogiai.com  
-- LinkedIn: https://linkedin.com/company/nirogiai  
-- Website: https://nirogiai.com
-
----
-
-## Notes
-
-We are at an early stage and actively building.
-
-Strong candidates should expect:
-- Direct involvement with system design
-- Real ownership of components
-- High expectations for quality and delivery
+We reply to everyone. If the fit looks right, we send a short take-home exercise ([engineering-challenge.md](engineering-challenge.md)), then talk through your solution.
