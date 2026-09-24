@@ -4,7 +4,7 @@
 
 An employee describes their symptoms in our app, our AI prepares the case, and an SLMC-registered medical officer reviews it, consults by video where needed, orders tests and prescribes. AI assists, doctors decide.
 
-The platform is live and in pilot use: patient apps in English, Sinhala and Tamil, portals for our medical officers, specialists, diagnostic partners and staff, and a workforce portal for the doctors who work sessions with us.
+The platform is built and in pilot, with the first employer rollouts from December 2026: patient apps in English, Sinhala and Tamil, portals for our medical officers, specialists, diagnostic partners and staff, and a workforce portal for the doctors who work sessions with us.
 
 ## Open roles
 
